@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeTxt1">10sp</dimen>
+
+    <dimen name="cell_text_size">13sp</dimen>
+    <dimen name="cell_text_size11">11sp</dimen>
+    <dimen name="cell_text_size14">16sp</dimen>
+    <dimen name="cell_text_size16">16sp</dimen>
+</resources>

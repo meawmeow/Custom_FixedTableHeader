@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "904946854232",
+    "firebase_url": "https://q70447044q.firebaseio.com",
+    "project_id": "q70447044q",
+    "storage_bucket": "q70447044q.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904946854232:android:e4c7208e06f2569e331d2d",
+        "android_client_info": {
+          "package_name": "th.co.businessplus.kotlinui1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904946854232-rpga3uul7i00sgn6hpnjamo926bivn4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBaDtTSMOR1OYlJhS-YRcw7aaKPdDDs_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904946854232-rpga3uul7i00sgn6hpnjamo926bivn4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

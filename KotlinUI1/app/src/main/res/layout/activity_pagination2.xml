@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".pagination_data.PaginationQActivity">
+    <LinearLayout
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/btn_load1"
+                android:layout_weight="1.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Load Data A"/>
+        <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#797C88"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:textColor="#eee"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtLoad"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Load.."/>
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/btn_load2"
+                android:layout_weight="1.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Load Data B"/>
+    </LinearLayout>
+    <LinearLayout
+            android:background="#797C88"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_gravity="center"
+                android:layout_weight="2.2"
+                android:id="@+id/btn_previous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pre"/>
+        <LinearLayout
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/la_view"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        </LinearLayout>
+        <Button
+                android:layout_gravity="center"
+                android:layout_weight="2.2"
+                android:id="@+id/btn_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"/>
+    </LinearLayout>
+    <ScrollView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/txtData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="DAA"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
